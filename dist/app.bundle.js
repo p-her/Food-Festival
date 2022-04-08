@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("module.exports = \"assets/img/food-table.[text]\";\n\n//# sourceURL=webpack:///./assets/img/food-table.jpg?");
+eval("module.exports = \"assets/img/food-table.jpg\";\n\n//# sourceURL=webpack:///./assets/img/food-table.jpg?");
 
 /***/ }),
 
@@ -104,7 +104,7 @@ eval("module.exports = \"assets/img/food-table.[text]\";\n\n//# sourceURL=webpac
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("module.exports = \"assets/img/grill.[text]\";\n\n//# sourceURL=webpack:///./assets/img/grill.jpg?");
+eval("module.exports = \"assets/img/grill.jpg\";\n\n//# sourceURL=webpack:///./assets/img/grill.jpg?");
 
 /***/ }),
 

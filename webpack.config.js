@@ -14,7 +14,7 @@ module.exports = {
     output: {
        
         filename: '[name].bundle.js',
-        path: __dirname + '/dist',
+        path: `${__dirname}/dist`
     },
     module: {
         rules: [
@@ -22,7 +22,7 @@ module.exports = {
                 // using test property to find a regular expression
                 // we are trying to process any image file with the file extension of .jpg
                 // we could expand this expression to also search for other image file extension such as .png, .svg, .gif
-                test: /\.jpg$/i,
+                test: /\.(png|jpe?g|gif)$/i,
                 // use is where the actual loader is implemented
                 use:[
                     {
@@ -32,7 +32,7 @@ module.exports = {
                             esModule: false,
                             // name function, which returns the name of the file with the file extension
                             name(file){
-                                return "[path][name].[text]"
+                                return "[path][name].[ext]"
                             },
                             // a function that changes our assignment URL by replacing the ../ from our require() statement with /assets/
                             publicPath: function(url){
