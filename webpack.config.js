@@ -41,7 +41,7 @@ module.exports = {
                             esModule: false,
                             // name function, which returns the name of the file with the file extension
                             name(file){
-                                return "[path][name].[text]"
+                                return "[path][name].[ext]"
                             },
                             // a function that changes our assignment URL by replacing the ../ from our require() statement with /assets/
                             publicPath: function(url){
